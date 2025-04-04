@@ -1,0 +1,7 @@
+{
+	"name": "ARM64 Linux Dev",
+	"image": "arm64v8/ubuntu",
+	"settings": {},
+	"postCreateCommand": "apt update && apt install -y build-essential nano",
+	"remoteUser": "root"
+}
